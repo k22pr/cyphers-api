@@ -1,7 +1,6 @@
 export type Player = {
-   nickname: string,
-   limit: number
-   wordType: WordType
+   limit?: number
+   wordType?: WordType
 }
 
 export enum WordType {
